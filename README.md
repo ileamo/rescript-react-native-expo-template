@@ -5,9 +5,9 @@
 Clone this repo and get started
 ```sh
 git clone https://github.com/ileamo/rescript-react-native-expo-template
-yarn global add expo-cli
 cd rescript-react-native-expo-template
-npm install
+yarn global add expo-cli
+yarn
 yarn build:watch
 # in another tab
 expo start
@@ -55,15 +55,15 @@ Create ./bsconfig.json file with content
 Add setting to ./package.json file
 ```json
 {
-  //...
+  ...
   "scripts": {
-    //...
+    ...
     "build": "rescript",
     "build:deps": "rescript build -with-deps",
     "build:watch": "rescript build -w"
 
   },
-  //...
+  ...
 }
 ```
 
