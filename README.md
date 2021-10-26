@@ -5,7 +5,7 @@ Install Expo-cli
 yarn global add expo-cli
 ```
 
-Create new React Native Project
+Create new React Native project
 ```sh
 expo init rescript-react-native-expo-template
 cd rescript-react-native-expo-template
@@ -40,15 +40,15 @@ Create ./bsconfig.json file with content:
 Add setting to ./package.json file
 ```json
 {
-  ...
+  //...
   "scripts": {
-    ...
+    //...
     "build": "rescript",
     "build:deps": "rescript build -with-deps",
     "build:watch": "rescript build -w"
 
   },
-  ...
+  //...
 }
 ```
 
