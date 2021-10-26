@@ -1,4 +1,19 @@
+# Create Rescript React Native project template
 
+## Quick start
+
+Clone this repo and get started
+```sh
+git clone https://github.com/ileamo/rescript-react-native-expo-template
+yarn global add expo-cli
+cd rescript-react-native-expo-template
+npm install
+yarn build:watch
+# in another tab
+expo start
+```
+
+## Installation
 
 Install Expo-cli
 ```sh
@@ -17,7 +32,7 @@ yarn add rescript --dev
 yarn add @rescript/react rescript-react-native
 ```
 
-Create ./bsconfig.json file with content:
+Create ./bsconfig.json file with content
 ```json
 {
     "name": "rescript-react-native-expo-template",
@@ -52,7 +67,7 @@ Add setting to ./package.json file
 }
 ```
 
-  Create src/App.res file with content:
+  Create src/App.res file with content
 ```re
 open ReactNative
 
@@ -90,6 +105,7 @@ yarn build:watch
 # in another tab
 expo start
 ```
+
 
 ## References
 
